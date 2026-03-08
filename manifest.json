@@ -1,0 +1,9 @@
+{
+	"id": "auto-tagger",
+	"name": "Auto Tagger",
+	"version": "1.0.0",
+	"minAppVersion": "1.5.0",
+	"description": "Automatically suggests tags based on word patterns in your notes.",
+	"author": "Linus Wittrin",
+	"isDesktopOnly": false
+}

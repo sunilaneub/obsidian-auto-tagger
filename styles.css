@@ -1,0 +1,85 @@
+/* ── Notice (real-time suggestion) ──────────────────────────────────────── */
+
+.auto-tagger-notice {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.auto-tagger-notice-message {
+	line-height: 1.5;
+}
+
+.auto-tagger-notice-message code {
+	background: var(--background-modifier-hover);
+	padding: 2px 6px;
+	border-radius: 4px;
+	font-weight: 600;
+}
+
+.auto-tagger-muted {
+	color: var(--text-muted);
+	font-size: 0.85em;
+}
+
+.auto-tagger-notice-buttons {
+	display: flex;
+	gap: 8px;
+}
+
+.auto-tagger-notice-buttons button {
+	padding: 4px 14px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 13px;
+}
+
+/* ── Modal (show all suggestions) ──────────────────────────────────────── */
+
+.auto-tagger-modal {
+	padding: 8px;
+}
+
+.auto-tagger-suggestion-row {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 8px 4px;
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.auto-tagger-suggestion-row:last-of-type {
+	border-bottom: none;
+}
+
+.auto-tagger-suggestion-row input[type="checkbox"] {
+	margin: 0;
+	flex-shrink: 0;
+}
+
+.auto-tagger-tag {
+	min-width: 140px;
+	font-weight: 500;
+}
+
+.auto-tagger-bar-container {
+	flex: 1;
+	height: 6px;
+	background: var(--background-modifier-border);
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.auto-tagger-bar {
+	height: 100%;
+	background: var(--interactive-accent);
+	border-radius: 3px;
+	transition: width 0.3s ease;
+}
+
+.auto-tagger-modal-buttons {
+	display: flex;
+	gap: 8px;
+	margin-top: 16px;
+	justify-content: flex-end;
+}
