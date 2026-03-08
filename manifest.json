@@ -3,7 +3,7 @@
 	"name": "Auto Tagger",
 	"version": "1.0.0",
 	"minAppVersion": "1.5.0",
-	"description": "Automatically suggests tags based on word patterns in your notes.",
+	"description": "Suggests tags for your notes based on vault-wide TF-IDF patterns. Learns from your existing tagging to suggest relevant tags in real-time.",
 	"author": "Linus Wittrin",
 	"isDesktopOnly": false
 }
