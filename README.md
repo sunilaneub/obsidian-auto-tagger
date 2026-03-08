@@ -15,6 +15,7 @@ An Obsidian plugin that automatically suggests tags for your notes based on your
 - Suggestions when opening a note
 - Manual trigger via command palette: "Suggest tags for current note"
 - Configurable tag placement: first line (inline), frontmatter (YAML), or end of current line
+- Skip individual suggestions or dismiss all at once with "Skip all"
 - Adjustable confidence threshold and max suggestions
 - Supports both English and German content
 - Rescan vault command to update the model after significant changes

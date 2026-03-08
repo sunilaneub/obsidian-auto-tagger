@@ -230,6 +230,16 @@ export default class AutoTaggerPlugin extends Plugin {
 		);
 
 		if (remaining > 1) {
+			btns.createEl("button", { text: "Skip all" }).addEventListener(
+				"click",
+				() => {
+					notice.hide();
+					this.activeNotice = null;
+					this.pendingSuggestions = [];
+					this.pendingIdx = 0;
+				}
+			);
+
 			btns.createEl("button", { text: "Show all" }).addEventListener(
 				"click",
 				() => {
